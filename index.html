@@ -9,8 +9,8 @@ layout: home
       "@type":"Dataset",
       "name":"OpenLORIS-Object Dataset",
       "description":"The recent breakthroughs in computer vision have benefited from the availability of large representative datasets (e.g. ImageNet and COCO) for training. Yet, robotic vision poses unique challenges for applying visual algorithms developed from these standard computer vision datasets due to their implicit assumption over non-varying distributions for a fixed set of tasks. Fully retraining models each time a new task becomes available is infeasible due to computational, storage and sometimes privacy issues, while naive incremental strategies have been shown to suffer from catastrophic forgetting. It is crucial for the robots to operate continuously under openset and detrimental conditions with adaptive visual perceptual systems, where lifelong learning is a fundamental capability. However, very few datasets and benchmarks are available to evaluate and compare emerging techniques. To fill this gap, we provide a new lifelong robotic vision dataset (“OpenLORISObject”) collected via RGB-D cameras. The dataset embeds the challenges faced by a robot in the real-life application and provides new benchmarks for validating lifelong object recognition algorithms. This dataset could support object classification, detection and segmentation. The 1 st version of OpenLORIS-Object is a collection of 121 instances, including 40 categories daily necessities objects under 20 scenes. For each instance, a 17 to 25 seconds video (at 30 fps) has been recorded with a depth camera delivering around 500 to 750 frames (260 to 600 distinguishable object views are manually picked and provided in the dataset). 4 environmental factors, each has 3 level changes, are considered explicitly, including illumination variants during recording, occlusion percentage of the objects, object pixel size in each frame, and the clutter of the scene.  Note that the variables of 3) object size and 4) camera-object distance are combined together because in the real-world scenarios, it is hard to distinguish the effects of these two factors brought to the actual data collected from the mobile robots, but we can identify their joint effects on the actual pixel sizes of the objects in the frames roughly. The variable 5) is considered as different recorded views of the objects. The defined three difficulty levels for each factor are shown in Table. II (totally we have 12 levels w.r.t. the environment factors across all instances). The levels 1, 2, and 3 are ranked with increasing difficulties.",
-      "url":"https://lifelong-robotic-vision.github.io",
-      "sameAs":"https://lifelong-robotic-vision.github.io",
+      "url":"https://open-structure.github.io",
+      "sameAs":"https://open-structure.github.io",
       "keywords":["continual learning","lifelong learning","robotic"],
       "license" : "https://freedomdefined.org/Licenses/CC-BY-4.0",
       "creator": [
@@ -95,9 +95,9 @@ The first and the most crutial thing needed to be seriously considered is what i
 
 
 <div class="user-details">
-<h1>Lifelong Robotic Vision</h1>
+<h1>Open Structure Benchmark Dataset</h1>
 
-<img src="https://lifelong-robotic-vision.github.io/about/Relation.png" alt="Human-Robot-Computer" width="520">
+<img src="https://open-structure.github.io/about/Relation.png" alt="Human-Robot-Computer" width="520">
 
 <p style="text-align: justify;">Humans have the remarkable ability to <strong><I>learn continuously</I></strong> from the external environment and the inner experience. One of the grand goals of robots is also building an artificial <strong><I><q>lifelong learning</q></I></strong> agent that can shape a cultivated understanding of the world from the current scene and their previous knowledge via an <strong><I>autonomous lifelong development.</I></strong></p>
 
@@ -109,7 +109,7 @@ The first and the most crutial thing needed to be seriously considered is what i
 
 <h1>Dataset and Competition</h1>
 
-<img src="https://lifelong-robotic-vision.github.io/about/Night.gif" alt="Human-Robot-Computer" width="360" height="240">
+<img src="https://open-structure.github.io/about/Night.gif" alt="Human-Robot-Computer" width="360" height="240">
 
 <p style="text-align: justify;">We will utilize the unique characteristics of robotics for enhancing robotic vision research by using additional high-resolution sensors (e.g. depth and point clouds), controlling the camera directions &amp; numbers, and even shrinking the intense labeling effort with self-supervision. For accelerating the lifelong robotic vision research, we will provide <strong><I>robot sensor data (RGB-D, IMU, etc.) in several kinds of typical scenarios, like homes and offices, with multiple objects, persons, scenes, and ground-truth trajectory acquired from auxiliary measurements with high-resolution sensors.</I></strong> Not only the sensor information, scenarios, task types are highly diverse, but also our dataset embraces slow and fast dynamics in real life, which to our knowledge makes it <a href="{{site.url}}{{site.baseurl}}/dataset">the first real-world dataset under the <strong><I>lifelong robotic vision</I></strong> setting</a>.</p>
 
@@ -163,14 +163,14 @@ I mainly use [Typora](https://www.typora.io) to write my post.-->
   </div>
 </div>
 
-<img src="https://lifelong-robotic-vision.github.io/about/organizer.png" alt="Human-Robot-Computer" width="820">
+<img src="https://open-structure.github.io/about/organizer.png" alt="Human-Robot-Computer" width="820">
 
 
 <!--
 <div class="row">
   <div class="col-xs-2">
     <a>
-      <img class="people-pic" src="https://lifelong-robotic-vision.github.io/about/fig_Roger.jpg" />
+      <img class="people-pic" src="https://open-structure.github.io/about/fig_Roger.jpg" />
     </a> 
     <div class="people-name">
       <h4>Dr. Qi She</h4>
@@ -180,7 +180,7 @@ I mainly use [Typora](https://www.typora.io) to write my post.-->
 
   <div class="col-xs-2">
     <a>
-      <img class="people-pic" src="https://lifelong-robotic-vision.github.io/about/fig_Xuesong.jpg" />
+      <img class="people-pic" src="https://open-structure.github.io/about/fig_Xuesong.jpg" />
     </a>
     <div class="people-name">
       <h4>Dr. Xuesong Shi</h4>
@@ -190,7 +190,7 @@ I mainly use [Typora](https://www.typora.io) to write my post.-->
 
   <div class="col-xs-2">
     <a>
-      <img class="people-pic" src="https://lifelong-robotic-vision.github.io/about/fig_Yimin.jpg" />
+      <img class="people-pic" src="https://open-structure.github.io/about/fig_Yimin.jpg" />
     </a>
     <div class="people-name">
       <h4>Dr. Yimin Zhang</h4>
@@ -200,7 +200,7 @@ I mainly use [Typora](https://www.typora.io) to write my post.-->
 
   <div class="col-xs-2">
     <a>
-      <img class="people-pic" src="https://lifelong-robotic-vision.github.io/about/fig_Qiaofei.jpg" />
+      <img class="people-pic" src="https://open-structure.github.io/about/fig_Qiaofei.jpg" />
     </a>
     <div class="people-name">
       <h4>Prof. Fei Qiao</h4>
@@ -210,7 +210,7 @@ I mainly use [Typora](https://www.typora.io) to write my post.-->
 
   <div class="col-xs-2">
     <a>
-      <img class="people-pic" src="https://lifelong-robotic-vision.github.io/about/fig_Rosa.jpg" />
+      <img class="people-pic" src="https://open-structure.github.io/about/fig_Rosa.jpg" />
     </a>
     <div class="people-name">
       <h4>Prof. Rosa H.M. Chan</h4>
